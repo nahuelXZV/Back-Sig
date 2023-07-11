@@ -6,4 +6,5 @@ export interface IEdificio {
     longitud: string;
     grupo: string;
     sigla: string;
+    localidad: string;
 }

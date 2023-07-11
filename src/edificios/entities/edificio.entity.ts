@@ -25,4 +25,7 @@ export class EdificioEntity extends BaseEntity implements IEdificio {
 
     @Column()
     sigla: string;
+
+    @Column()
+    localidad: string;
 }
